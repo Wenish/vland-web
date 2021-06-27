@@ -1,6 +1,6 @@
 <template>
 <div>
-  App
+  <img alt="Title Logo" src="./assets/vlandTitle.svg" class="title-logo" />
 </div>
 </template>
 
@@ -24,5 +24,9 @@ html, body {
   text-align: center;
   color: #2c3e50;
   background: #ece8e1;
+}
+
+.title-logo {
+height: 100%;
 }
 </style>

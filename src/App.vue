@@ -27,6 +27,6 @@ html, body {
 }
 
 .title-logo {
-height: 100%;
+  height: 100vh;
 }
 </style>

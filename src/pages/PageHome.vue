@@ -87,6 +87,7 @@ export default defineComponent({
 
 <style scoped>
 .section-1 {
+  background-color: #0f1923;
   background-image: url("../assets/artwork1.jpg");
   background-repeat: no-repeat;
   background-size: cover;

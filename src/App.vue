@@ -1,18 +1,12 @@
 <template>
-<div>
-  <img alt="Title Logo" src="./assets/vlandTitle.svg" class="title-logo" />
-</div>
+<router-view />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
 
 export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 })
 </script>
 
@@ -24,9 +18,6 @@ html, body {
   text-align: center;
   color: #2c3e50;
   background: #ece8e1;
-}
-
-.title-logo {
-  height: 100vh;
+  font-size: 100%;
 }
 </style>

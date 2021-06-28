@@ -3,10 +3,7 @@
     <section class="section-1 center">
       <div class="card">
         <div>A fast paste multiplayer game on tactical maps.</div>
-        <svg
-          class="game-title"
-          viewBox="0 0 746 228"
-        >
+        <svg class="game-title" viewBox="0 0 746 228">
           <g id="ArtBoard1" transform="matrix(1,0,0,1,-31.9688,-187.099)">
             <rect
               x="31.969"

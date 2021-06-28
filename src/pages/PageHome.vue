@@ -1,7 +1,7 @@
 <template>
   <LayoutFull>
     <section class="section-1 center">
-      <div>
+      <div class="card">
         <div>A fast paste multiplayer game on tactical maps.</div>
         <svg
           class="game-title"
@@ -98,9 +98,14 @@ export default defineComponent({
   text-shadow: 1px 1px 1px black;
 }
 
+.card {
+  padding: 10px;
+}
+
 .game-title {
   fill: #ece8e1;
-  width: 69vw;
+  width: 49vw;
+  max-width: 40rem;
   padding: 20px 0;
   filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
@@ -117,6 +122,9 @@ export default defineComponent({
 @media screen and (max-width: 1024px) {
   .section-1 {
     height: 30rem;
+  }
+  .game-title {
+    width: 80%;
   }
 }
 </style>

@@ -1,23 +1,7 @@
 <template>
   <div class="header">
     <div class="logo">
-      <svg
-        width="100%"
-        height="100%"
-        viewBox="0 0 200 200"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        xml:space="preserve"
-        xmlns:serif="http://www.serif.com/"
-        fill="#e9ff8f"
-        style="
-          fill-rule: evenodd;
-          clip-rule: evenodd;
-          stroke-linejoin: round;
-          stroke-miterlimit: 2;
-        "
-      >
+      <svg viewBox="0 0 200 200" fill="#e9ff8f">
         <g transform="matrix(1,0,0,1,-34.6435,102.263)">
           <g transform="matrix(250,0,0,250,72.0227,90.4625)">
             <path
@@ -47,7 +31,7 @@ export default defineComponent({
   color: #f9f9f9;
   display: grid;
   place-items: center;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 58px 1fr 58px;
   grid-template-rows: 58px;
   border-bottom: 2px solid rgba(51, 51, 51, 0.25);
 }
